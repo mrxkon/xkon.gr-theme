@@ -1,0 +1,411 @@
+/*
+ Theme Name:   xkon hired
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  xkon hired
+ Author:       xkon
+ Author URI:   https://xkon.gr
+ Template:     hired
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+ Text Domain:  hired
+*/
+
+#home-content {
+	z-index: 150;
+}
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6 {
+	color: #626399;
+}
+
+#home-content h1,
+#home-content h2,
+#home-content h3,
+#home-content h4,
+#home-content h5,
+#home-content h6 {
+	color: #fff;
+}
+
+blockquote {
+	padding: 15px;
+	border-left: 5px solid #5787a6;
+	color: #000;
+	font-weight: 600;
+}
+
+code {
+	background: #ddd;
+	padding: 0 5px;
+}
+
+.gallery-row {
+	margin: 0 auto;
+}
+
+.jPushMenuBtn {
+	overflow: hidden;
+}
+
+.hideMe {
+	display: none;
+}
+
+.cbp-primary a {
+	font-size: 1em !important;
+}
+
+.dashicons, .dashicons-before:before {
+	font-size: 18px;
+}
+
+.site-branding img,
+.site-branding-home img {
+	border: 0;
+	border-radius: 50%;
+}
+
+#page-content-container {
+	margin-top: -60px;
+	max-width: 900px;
+	padding: 0;
+	margin-left: 120px;
+	width: calc(100% - 140px);
+}
+
+.header-image-overlay {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.bio-content a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.bio-content a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.gallery {
+	text-align: center;
+}
+
+.myname {
+	font-size: 20px;
+	color: #25b5f1;
+}
+
+#home-content h1 {
+	font-size: 35px;
+}
+
+div.wpforms-container-full .wpforms-form input.wpforms-field-medium,
+div.wpforms-container-full .wpforms-form select.wpforms-field-medium,
+div.wpforms-container-full .wpforms-form .wpforms-field-row.wpforms-field-medium {
+	max-width: none;
+}
+
+.site-info {
+	text-transform: none;
+	color: #626399;
+}
+
+.nav-links .nav-previous {
+	padding-left: 10px;
+}
+
+.nav-links .nav-next {
+	padding-right: 10px;
+}
+
+.home .content-container > div {
+	vertical-align: top;
+	padding-bottom: 0;
+}
+
+.home-content hr {
+	background-color: #aaa;
+	border: 0;
+	height: 1px;
+	margin: 1.5em 0 1.5em 0;
+}
+
+#homewidget .widgettitle {
+	font-size: 20px;
+	line-height: 10px;
+}
+
+#homewidget ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.home-details {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+ul, ol {
+	margin: 0 0 1.5em 0;
+}
+
+.site-branding,
+.site-branding-home {
+	display: none;
+}
+
+tr {
+	border-bottom: 1px #eee solid;
+	margin-top: 20px;
+}
+
+td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	vertical-align: top;
+}
+
+#infinite-footer {
+	display: none;
+}
+
+.menu-toggle, .social-media-icons li .fa {
+	height: 60px;
+	line-height: 60px;
+}
+
+.site-header, .menu-toggle, .social-media-icons li .fa {
+	width: 60px;
+}
+
+/* Room General */
+#room {
+	background: url(images/graffiti/2.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	width: 100%;
+	z-index: 50;
+}
+
+#roomoverlay {
+	background: #000;
+	height: 100vh;
+	left: 0;
+	opacity: .3;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 50;
+}
+
+#roomstuff {
+	bottom: 0;
+	width: 80vw;
+	z-index: 100;
+}
+
+#shadylayer {
+	opacity: .7;
+}
+
+/* XkonLogo */
+
+#xkonlogo {
+	position: absolute;
+	top: 50px;
+	width: 40vw;
+	z-index: 900;
+}
+
+#pcxf1, #pcxf2, #pcxf3, #pcxf4, #pcxf5, #pcxf6, #pcxf7,
+#pckf1, #pckf2, #pckf3, #pckf4,
+#pcof1, #pcof2, #pcof3, #pcof4,
+#pcnf1, #pcnf2, #pcnf3, #pcnf4, #pcnf5 {
+	opacity: 0;
+}
+#pcwin1,
+#pcwin2,
+#pcwin3 {
+	opacity: 0;
+}
+
+/* Window */
+#cloud1 {
+	animation: movecloud1 30s infinite;
+	animation-timing-function: linear;
+	transform: translate(-100px);
+
+}
+
+#cloud2 {
+	animation: movecloud2 30s infinite;
+	animation-delay: 5s;
+	animation-timing-function: linear;
+	transform: translate(-120px);
+}
+
+#cloud3 {
+	animation: movecloud3 20s infinite;
+	animation-delay: 5s;
+	animation-timing-function: linear;
+	transform: translate(-180px);
+}
+
+#cloud4 {
+	display: none;
+}
+
+#cloud5 {
+	animation: movecloud5 20s infinite;
+	animation-delay: 3s;
+	animation-timing-function: linear;
+	transform: translate(-220px);
+}
+
+#cloud6 {
+	animation: movecloud6 30s infinite;
+	animation-delay: 2s;
+	animation-timing-function: linear;
+	transform: translate(-250px);
+}
+
+@keyframes movecloud1 {
+	0% {
+		transform: translate(-100px);
+	}
+	100% {
+		transform: translate(250px);
+	}
+}
+
+@keyframes movecloud2 {
+	0% {
+		transform: translate(-120px);
+	}
+	100% {
+		transform: translate(190px);
+	}
+}
+
+@keyframes movecloud3 {
+	0% {
+		transform: translate(-180px);
+	}
+	100% {
+		transform: translate(110px);
+	}
+}
+
+@keyframes movecloud5 {
+	0% {
+		transform: translate(-220px);
+	}
+	100% {
+		transform: translate(90px);
+	}
+}
+
+@keyframes movecloud6 {
+	0% {
+		transform: translate(-250px);
+	}
+	100% {
+		transform: translate(90px);
+	}
+}
+
+/* Coffee Smoke */
+#smoke1 {
+	animation: smoke 3s infinite;
+	opacity: 0;
+}
+
+#smoke2 {
+	animation: smoke 3s infinite;
+	animation-delay: 2s;
+	opacity: 0;
+}
+
+#smoke3 {
+	animation: smoke 3s infinite;
+	animation-delay: 1s;
+	opacity: 0;
+}
+
+@keyframes smoke {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@media (max-width: 900px) {
+	#single-content-container {
+		width: auto;
+		margin: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.nav-links div {
+		clear: both;
+		text-align: center !important;
+		float: none !important;
+		width: auto !important;
+		display: block;
+		padding: 0;
+	}
+
+	h1 {
+		font-size: 25px;
+	}
+
+	thead {
+		display: none;
+	}
+
+	td {
+		clear: both;
+		display: block;
+	}
+
+	#home-content {
+		padding: 20px 20px 20px 80px;
+	}
+
+	#page-content-container {
+		margin-left: 80px;
+		width: calc(100% - 100px);
+	}
+
+	button.resume {
+		display: inline-block;
+		margin: 10px 0 0 10px;
+	}
+}
+
+@media (max-width: 657px) {
+	.gallery-item {
+		max-width: 80% !important;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+}
